@@ -1,0 +1,43 @@
+data-grid ._container
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 25% 75%;
+}
+
+data-grid ._title
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+data-grid ._box
+{
+    display: grid;
+}
+
+data-grid ._control
+{
+    display: grid;
+    grid-template-columns: 15% 15% 40% 15% 15%;
+}
+
+data-grid ._button
+{
+    cursor: pointer;
+}
+
+data-grid ._page
+{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+data-grid ._cell
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
